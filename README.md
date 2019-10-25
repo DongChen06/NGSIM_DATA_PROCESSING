@@ -8,40 +8,22 @@ NGSIM DATA PROCESSING
 Overview
 -------
 
-This resposity aims at 
+This resposity aims at building car following dataset. We use a subset of NGSIM dataset, full dataset can be found here. xxxx
 
 #### Motivation:
 To be added...
 
-Part1. Project Building On Ubuntu
--------
-
-### Object Detection Module
-To be added...
-
-### Lane Deviation Module
-
-This module is built on the resposity: [Resposity Link](https://github.com/ndrplz/self-driving-car/tree/master/project_4_advanced_lane_finding).
-
-Modification logs:
-- [x] Delete the display code for "intermediate pipeline images", here we only display the lane deviation and lane curvature.
-- [x] Clasify codes.
-- [ ] Problems with road curvature and offset values are always positive.
-
-### Distance Estimation Module
-47o FOV len.
-
-<p align="center">
-     <img src="./traffic_project/Docs/distance_estimation.png" alt="output_example" width="60%" height="60%">
-     <br>Distance Estimation
-</p>
-When camera pitch angle is negligibly small, range d to vehicle can be calculated as in the following: 
-
-```
-    d = F_c * H_c / (y_b - y_h)
-```
-
-Part2. Project Building On Android
+Part1. Lane Change Analysis
 -------
 
 To be added...
+
+
+Part2. Trajectory Plotting
+-------
+
+To be added...
+
+
+Part3. Data Saving
+-------

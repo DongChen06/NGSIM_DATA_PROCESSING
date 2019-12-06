@@ -15,8 +15,7 @@ Next Generation Simulation (NGSIM) program collected vehicle trajectory data on 
 
 Part1. Lane Change Analysis
 -------
-
-To be added...
+There are three subdataset 
 
 
 Part2. Trajectory Plotting

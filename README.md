@@ -15,8 +15,22 @@ Next Generation Simulation (NGSIM) program collected vehicle trajectory data on 
 
 Part1. Lane Change Analysis
 -------
-There are three subdataset 
+There are three subdataset. We use the dataset *Data-0500-0515*, the dataset shows like this.
 
+<p align="center">
+     <img src="docs/trajectory16.png" alt="output_example" width="60%" height="60%">
+     <br>Fig.1 Column 1-6 of Data-0500-0515
+</p>
+
+<p align="center">
+     <img src="docs/trajectory712.png" alt="output_example" width="60%" height="60%">
+     <br>Fig.2 Column 7-12 of Data-0500-0515
+</p>
+
+<p align="center">
+     <img src="docs/trajectory1318.png" alt="output_example" width="60%" height="60%">
+     <br>Fig.3 Column 13-18 of Data-0500-0515
+</p>
 
 Part2. Trajectory Plotting
 -------

@@ -15,7 +15,8 @@ Next Generation Simulation (NGSIM) program collected vehicle trajectory data on 
 
 Part1. Lane Change Analysis
 -------
-There are three subdataset. We use the dataset *Data-0500-0515*, the dataset shows like this.
+There are three subdataset. We use the dataset *Data-0500-0515* of Next Generation Simulation (NGSIM) Interstate 80 Freeway
+Dataset. You can find the dataset analysis from the [Attachments](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj). The dataset shows like this.
 
 <p align="center">
      <img src="docs/trajectory16.png" alt="output_example" width="60%" height="60%">
@@ -31,6 +32,8 @@ There are three subdataset. We use the dataset *Data-0500-0515*, the dataset sho
      <img src="docs/trajectory1318.png" alt="output_example" width="60%" height="60%">
      <br>Fig.3 Column 13-18 of Data-0500-0515
 </p>
+
+We can find the same vehicle (Vehicle_ID) occurs many time as the dataset shows the trajectory for each vehicle in frame (the frame rate is 15). 
 
 Part2. Trajectory Plotting
 -------

@@ -35,6 +35,8 @@ Dataset. You can find the dataset analysis from the [Attachments](https://data.t
 
 We can find the same vehicle (Vehicle_ID) occurs many time as the dataset shows the trajectory for each vehicle in frame (the frame rate is 15). 
 
+The code in [data_process.m](/data_process.m)
+
 Part2. Trajectory Plotting
 -------
 

@@ -35,12 +35,25 @@ Dataset. You can find the dataset analysis from the [Attachments](https://data.t
 
 We can find the same vehicle (Vehicle_ID) occurs many time as the dataset shows the trajectory for each vehicle in frame (the frame rate is 15). 
 
-The code in [data_process.m](/data_process.m)
+The code in [data_process.m](/data_process.m) processes the trajectory information for each car. For each lane, there is a file **lane_analysis_X.mat** in the **/lane_analysis/** folder. 
+<p align="center">
+     <img src="docs/lane2.png" alt="output_example" width="60%" height="60%">
+     <br>Fig.4 Output of 2nd Lane Analysis
+</p>
+
+Columns are Vehicle_ID, Preceding, Forwarding, start_frame, end_frame, total_frames, start_y, end_y, lane_change_flag. That's the information related to each vehicle arranged in the order of entering time. Here we can see that the sequence of vehicles with Vehicle_ID 353--> 374--> 387 --> ... ---> 367 meets our requirement, as there is no lane changing event happening (lane_change_flag is 0). We can also use the trajectory plotting to prove that.
+
+
 
 Part2. Trajectory Plotting
 -------
 
-To be added...
+We can plot the trajectories of vehicles over time frames. The code in [data_process.m](/plot_trajectories.m) does trajectory plotting.
+<p align="center">
+     <img src="docs/trajectory_plotting.png	" alt="output_example" width="60%" height="60%">
+     <br>Fig.5 trajectory_plotting
+</p>
+
 
 
 Part3. Data Saving

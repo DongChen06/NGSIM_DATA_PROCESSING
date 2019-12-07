@@ -63,5 +63,6 @@ The code in [save_data.m	](/save_data.m) saves the vehicle and related informati
 Reference
 ----------
 [1]. [Next Generation Simulation (NGSIM) Vehicle Trajectories and Supporting DataAutomobiles](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj)
-[2]. 
+
+[2]. [NGISM-I-80-Trajectory-Animation](https://github.com/cemsaz/NGSIM-trajectory-animation)
 

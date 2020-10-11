@@ -36,6 +36,7 @@ data2save = {};
 for j=1:len
     frameData = trajectories(trajectories(:,1)== cars(j) & ...
       trajectories(:,2) >= t(1) &  trajectories(:,2) <= t(2),:);
+      # vehicle speed, acceleration, headway space in meter.
     frame_data = [frameData(:,12), frameData(:,13), frameData(:,17)] * 0.3048;
 %     frame_data = [frameData(:, 1),frameData(:, 2), frameData(:,12), frameData(:,13), frameData(:,17)] .* [1, 1, 0.3048, 0.3048, 0.3048];
     data2save(j,1) = {frame_data};

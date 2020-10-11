@@ -41,7 +41,7 @@ The code in [data_process.m](/data_process.m) processes the trajectory informati
      <br>Fig.4 Data in lane_analysis_2.mat
 </p>
 
-Columns are Vehicle_ID, Preceding, Forwarding, start_frame, end_frame, total_frames, start_y, end_y, lane_change_flag. That's the information related to each vehicle arranged in the order of entering time. Here we can see that the sequence of vehicles with Vehicle_ID 353--> 374--> 387 --> ... ---> 367 meets our requirement, as there is no lane changing event happening (lane_change_flag is 0). We can also use the trajectory plotting to prove that.
+Columns are Vehicle_ID, Preceding, Forwarding, start_frame, end_frame, total_frames, start_y, end_y, lane_change_flag. That's the information related to each vehicle arranged in the order of entering time. Here we can see that the sequence of vehicles with Vehicle_ID 353--> 374--> 387 --> ... ---> 467 meets our requirement, as there is no lane changing event happening (lane_change_flag is 0). We can also use the trajectory plotting to prove that.
 
 
 

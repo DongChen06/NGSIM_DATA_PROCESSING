@@ -60,6 +60,9 @@ Part3. Data Saving
 -------
 The code in [save_data.m	](/save_data.m) saves the vehicle and related information.
 
+Cite 
+-------
+
 Reference
 ----------
 [1]. [Next Generation Simulation (NGSIM) Vehicle Trajectories and Supporting DataAutomobiles](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj)

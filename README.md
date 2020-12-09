@@ -62,6 +62,18 @@ The code in [save_data.m	](/save_data.m) saves the vehicle and related informati
 
 Cite 
 -------
+```
+@misc{hajidavalloo2020mechanical,
+      title={A Mechanical System Inspired Microscopic Traffic Model: Modeling, Analysis, and Validation}, 
+      author={Mohammad R. Hajidavalloo and Zhaojian Li and Dong Chen and Ali Louati and Shuo Feng and Wubing B. Qin},
+      year={2020},
+      eprint={2012.02948},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY}
+}
+```
+
+
 
 Reference
 ----------
